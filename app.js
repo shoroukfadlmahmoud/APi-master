@@ -3,7 +3,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const morgan = require('morgan')
 const mongoose = require("mongoose");
-const DB_URL = "mongodb://127.0.0.1/mydatabase";
+const DB_URL = "mongodb://0.0.0.0:27017/mydatabase";
 // const DB_URL = "mongodb://hostname/hostIP:27017/mydatabase";
 
 
